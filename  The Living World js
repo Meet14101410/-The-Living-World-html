@@ -1,0 +1,6 @@
+let score = 0;
+
+function discoverLife() {
+  score++;
+  document.getElementById("points").innerHTML = score;
+}
