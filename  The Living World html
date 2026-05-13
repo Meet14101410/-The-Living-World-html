@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Living World</title>
+</head>
+<body style="text-align:center; font-family:Arial; background:#dfffe0;">
+
+  <h1>The Living World</h1>
+  <p>Explore nature and collect life points!</p>
+
+  <button onclick="score++ ; points.innerHTML=score">
+    Discover Life
+  </button>
+
+  <h2>Points: <span id="points">0</span></h2>
+
+  <script>
+    let score = 0;
+  </script>
+
+</body>
+</html>
